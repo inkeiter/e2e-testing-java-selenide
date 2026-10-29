@@ -1,5 +1,3 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/f1fgvwdi2bfv146t?svg=true)](https://ci.appveyor.com/project/inkeiter/homework-auto-2-3-1-testmode)
-# E2E-автотесты (UI + API) для банковского приложения
 
 Этот проект содержит комплексные End-to-End (E2E) автотесты, покрывающие как пользовательский интерфейс (UI), так и программный интерфейс (API) тестового банковского приложения.
 
