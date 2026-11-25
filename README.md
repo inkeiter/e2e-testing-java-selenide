@@ -1,5 +1,7 @@
 # Bank App E2E Tests (UI + API)
 
+> 🇷🇺 Русская версия: [README.ru.md](README.ru.md)
+
 This project contains end-to-end (E2E) automated tests covering both the user interface (UI) and the API of a test banking application.
 
 ## 🎯 Project Goal
