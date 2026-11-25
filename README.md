@@ -1,35 +1,39 @@
+# Bank App E2E Tests (UI + API)
 
-Этот проект содержит комплексные End-to-End (E2E) автотесты, покрывающие как пользовательский интерфейс (UI), так и программный интерфейс (API) тестового банковского приложения.
+This project contains end-to-end (E2E) automated tests covering both the user interface (UI) and the API of a test banking application.
 
-## 🎯 Цель проекта
-Продемонстрировать навыки написания надежных UI-тестов с использованием Page Object, генерации тестовых данных и проверки корректности работы API. Проект интегрирован с системой непрерывной интеграции (CI).
+## 🎯 Project Goal
 
-## 🛠 Стек технологий
-*   **Язык:** Java 11
-*   **UI-тестирование:** Selenide 6, Selenium WebDriver
-*   **API-тестирование:** RestAssured, Gson (для парсинга JSON)
-*   **Тестовый фреймворк:** JUnit 5
-*   **Генерация данных:** JavaFaker (создание случайных валидных данных для форм)
-*   **Сборка:** Gradle
-*   **CI/CD:** AppVeyor
+To demonstrate the ability to write reliable UI tests using the Page Object pattern, generate test data, and verify that the API works correctly. The project is integrated with a continuous integration (CI) system.
 
-## 🚀 Реализованные проверки
-1.  **UI-тесты (Selenide):**
-    *   Авторизация в системе.
-    *   Заполнение форм с использованием случайно сгенерированных данных (JavaFaker).
-    *   Проверка навигации и отображения элементов интерфейса.
-2.  **API-тесты (RestAssured):**
-    *   Отправка запросов к эндпоинтам приложения.
-    *   Валидация ответов сервера и структуры JSON.
-3.  **Интеграция с CI:**
-    *   Настроен файл `appveyor.yml` для автоматического запуска сервера приложения и прогона тестов в headless-режиме (без графического интерфейса) при каждом пуше.
+## 🛠 Tech Stack
 
-## ⚙️ Как запустить локально
-1. Убедитесь, что у вас установлена Java 11.
-2. Склонируйте репозиторий.
-3. Запустите тесты через терминал:
-   * На Windows: `gradlew.bat test`
-   * На Mac/Linux: `./gradlew test`
+* **Language:** Java 11
+* **UI testing:** Selenide 6, Selenium WebDriver
+* **API testing:** RestAssured, Gson (for JSON parsing)
+* **Test framework:** JUnit 5
+* **Data generation:** JavaFaker (random valid data for forms)
+* **Build tool:** Gradle
+* **CI/CD:** AppVeyor
 
----
-*Проект выполнен в рамках обучения автоматизации тестирования.*
+## 🚀 Implemented Checks
+
+1. **UI tests (Selenide):**
+   * Logging in to the system.
+   * Filling in forms with randomly generated data (JavaFaker).
+   * Checking navigation and the display of interface elements.
+2. **API tests (RestAssured):**
+   * Sending requests to the application's endpoints.
+   * Validating server responses and JSON structure.
+3. **CI integration:**
+   * An `appveyor.yml` file is configured to automatically start the application server and run the tests in headless mode (without a graphical interface) on every push.
+
+## ⚙️ How to Run Locally
+
+1. Make sure Java 11 is installed.
+2. Clone the repository.
+3. Run the tests from the terminal:
+   * On Windows: `gradlew.bat test`
+   * On Mac/Linux: `./gradlew test`
+
+This project was created as part of my test automation training.
